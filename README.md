@@ -10,7 +10,7 @@ Drop [`luamalg.h`](/luamalg.h) into your project and use it right away:
 /* don't forget to define LUA_IMPLEMENTATION or LUAMALG_IMPLEMENTATION in ONE .c
  * or .cpp file before including luamalg.h to create the implementation */
 #define LUA_IMPLEMENTATION
-#include "../luamalg.h"
+#include "luamalg.h"
 
 int main(void) {
     lua_State* lua = luaL_newstate();
